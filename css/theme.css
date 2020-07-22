@@ -7,21 +7,39 @@ html {
 }
 
 body>main {
-    padding: 1rem 2rem 1rem 2rem;
+    padding: .5rem 1rem .5rem 1rem;
     background: rgba(0, 0, 0, 0.3);
     font-size: 130%;
+    box-shadow: 1px 1px 100px black;
+    border: 3px solid rgba(255,255,0);
+    background: red;
 }
 
-body>nav {
+body>nav,
+body>footer {
     background: rgba(0, 0, 0, 0.09);
 }
 
-footer,
-header,
-nav {
+body>footer,
+body>header,
+body>nav {
     height: 1rem;
 }
 
-aside{
+body>aside{
     width: 1rem;
+}
+
+img{
+    max-height: 80%;
+    margin: 0 .5rem 0 .5rem;
+}
+
+h1{
+    font-size: 60%;
+    color: white;
+}
+
+h2{
+    font-size: 40%;
 }

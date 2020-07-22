@@ -9,7 +9,6 @@
 html {
     width: 100%;
     height: 100%;
-    
 }
 
 body {
@@ -28,7 +27,7 @@ body {
 }
 
 body * {
-    display: block;
+    display: inline-block;
 }
 
 body>header {
@@ -79,4 +78,11 @@ body > footer div{
     flex-basis: 0;
     -ms-flex-positive: 1;
     -ms-flex-preferred-size: 0;
+}
+
+.aramean-flag{
+    max-width: 100%;
+    max-height: 100%;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_Syriac-Aramaic_People.svg/1024px-Flag_of_the_Syriac-Aramaic_People.svg.png');
+    background-size: cover;
 }
